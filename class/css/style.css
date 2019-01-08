@@ -1,0 +1,65 @@
+.total{
+	margin-top: 100px;
+	flood-color: :yellow;
+}
+.row{
+	width: 32%;
+	margin-left: 40%;
+	display: flex;
+}
+.circle, .square, .diamond{
+	background-color: white;	
+}
+.empty{
+	background-color: aqua;
+}
+.button{
+	cursor: pointer;
+}
+.square{
+	margin: 10px;
+	padding: 10px;
+	width: 40px;
+	height: 40px;
+	border: 1px solid;
+	border-color: black;
+}
+.circle{
+	margin: 10px;
+	padding: 10px;
+	width: 40px;
+	height: 40px;
+	border: 1px solid;
+	border-radius: 50px;
+	border-color: black;
+}
+.diamond{
+	margin: 10px;
+	padding: 10px;
+	width: 40px;
+	height: 40px;
+	border: 1px solid;
+	transform:rotate(45deg);
+	border-color: black;
+
+}
+.btn{
+	margin-left: 43%;
+}
+.lleno{
+	background-color: aqua ;
+	padding:6px 0 6px 0;
+	border-radius:50%;
+	font:bold 13px Roboto;
+	color:red;
+	width:160px;
+}
+.vacio{
+	background-color: white;
+	padding:6px 0 6px 0;
+	border-radius:50%;
+	font:bold 13px Roboto;
+	color:green;
+	width:160px;
+}
+
